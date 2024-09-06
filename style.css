@@ -1,0 +1,380 @@
+    /* ------------------------------------------------------------------ */
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+    }
+    /* -----------------------------HOME------------------------------------- */
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .Home {
+        background-image: url("./assets/images/landing-bg.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        margin: auto;
+    }
+    
+    .container-home {
+        width: 100%;
+        margin: auto;
+        position: relative;
+    }
+    
+    .container {
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+    /* -----------------------------هنا الصفحة الغامة ودي جوة الكونتينر وجواها باقي الديفات هي الاب------------------------------------- */
+    
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100%;
+        overflow: auto;
+    }
+    /* ------------------------------------------------------------------ */
+    
+    .navbar .logo {
+        float: left;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    
+    .navbar .links {
+        float: right;
+        padding-right: 50px;
+    }
+    
+    .navbar .links li {
+        display: inline-block;
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    
+    .navbar .links a {
+        color: white;
+    }
+    /* ------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------ */
+    
+    .clear {
+        clear: both;
+    }
+    /* جزء الكلام بالزراير */
+    /* ------------------------------------------------------------------ */
+    
+    .home-info {
+        margin-top: 250px;
+        color: white;
+        text-align: center;
+    }
+    
+    .home-info .welcome {
+        font-size: 20px;
+    }
+    
+    .home-info .title {
+        font-size: 60px;
+        margin: 0;
+        font-family: "Alegreya", serif;
+    }
+    
+    .home-info .details {
+        font-size: 24px;
+    }
+    
+    .home-info .buttons {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .home-info .buttons button {
+        color: white;
+        background-color: transparent;
+        border: solid 2px;
+        border-radius: 5px;
+        padding: 15px 20px;
+        font-size: 20px;
+        margin: 0 4px;
+        cursor: pointer;
+    }
+    
+    .home-info .buttons .learn-more {
+        background-color: #ae9768;
+        border-color: #ae9768;
+    }
+    /* ------------------------------------------------------------------ */
+    /* Who We Are  section*/
+    
+    .who-we-are {
+        margin-top: 150px;
+    }
+    
+    .who-we-are .details h2 {
+        font-size: 45px;
+    }
+    
+    .who-we-are .details p {
+        color: #686868;
+        font-size: 20px;
+    }
+    
+    .who-we-are .details,
+    .who-we-are .section-img {
+        display: inline-block;
+        width: 49.5%;
+        vertical-align: middle;
+    }
+    
+    .who-we-are .section-img img {
+        width: 100%;
+    }
+    
+    .who-we-are .details {
+        padding-left: 50px;
+    }
+    
+    .who-we-are ul img {
+        height: 40px;
+        vertical-align: middle;
+        border: solid 1px rgba(0, 0, 0, 0.15);
+        border-radius: 50%;
+    }
+    
+    .who-we-are ul li {
+        color: #686868;
+        margin-bottom: 20px;
+    }
+    /* ------------------------------------------------------------------ */
+    /* Our Location */
+    
+    .our-location {
+        background-color: #f8f8f8;
+        padding: 100px 0;
+        height: 700px;
+        margin-top: 100px;
+    }
+    
+    .our-location .details,
+    .our-location .section-img {
+        display: inline-block;
+        width: 550px;
+        vertical-align: middle;
+    }
+    
+    .our-location .details {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-left: 50px;
+    }
+    
+    .our-location .section-img {
+        position: absolute;
+        right: 0;
+    }
+    
+    .our-location .section-img img {
+        width: 100%;
+    }
+    
+    .our-location .details h2 {
+        font-size: 50px;
+    }
+    
+    .our-location .details p {
+        color: #686868;
+        font-size: 23px;
+    }
+    /* ------------------------------------------------------------------ */
+    /* Our-Baking */
+    
+    .our-baking {
+        text-align: center;
+        margin: 80px 0;
+    }
+    
+    .our-baking h2 {
+        font-size: 40px;
+    }
+    
+    .our-baking p {
+        color: #888;
+        font-size: 22px;
+    }
+    
+    .cards .card {
+        float: left;
+        width: 33%;
+        padding: 0 20px;
+    }
+    
+    .cards .card h3 {
+        font-size: 25px;
+    }
+    
+    .cards .card img {
+        width: 100%;
+    }
+    /* Contact Information */
+    
+    .contact-information {
+        background-color: #f8f8f8;
+        padding: 100px 0;
+    }
+    
+    .contact-information li,
+    .contact-information p {
+        color: #686868;
+        font-size: 25px;
+    }
+    
+    .contact-information .contact-details {
+        margin: 30px 0;
+    }
+    
+    .contact-information li img {
+        height: 40px;
+        vertical-align: middle;
+    }
+    
+    .contact-information .details {
+        float: left;
+        width: 50%;
+        padding-right: 50px;
+    }
+    
+    .contact-information .section-map {
+        width: 50%;
+        float: right;
+    }
+    /* footer */
+    
+    .footer {
+        background-color: #403d38;
+        height: 100vh;
+    }
+    
+    .footer .overlay {
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    .footer-data {
+        float: left;
+        width: 25%;
+        padding: 0 20px;
+    }
+    
+    .footer h3 {
+        color: white;
+        font-size: 23px;
+    }
+    
+    .footer p,
+    .footer li {
+        color: #969696;
+        font-size: 15px;
+    }
+    
+    .footer li {
+        padding: 10px;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.07);
+        ;
+    }
+    
+    .footer .world-wide-bg {
+        background-image: url("assets/images/contact-details-map.png");
+        background-repeat: no-repeat;
+        background-position: 0 80%;
+    }
+    
+    .footer ul img {
+        height: 35px;
+        vertical-align: middle;
+    }
+    /* fix bar */
+    
+    .fix-bar {
+        width: 50px;
+        height: 100px;
+        position: fixed;
+        right: 0;
+        margin: 250px 0 0 0;
+        z-index: 99;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    
+    .fix-bar .demo-site {
+        height: 50px;
+        background-image: url(assets/images/demooo.jpg);
+        background-position: center;
+        background-size: cover;
+        cursor: pointer;
+    }
+    
+    .fix-bar .engage {
+        height: 50px;
+        background-image: url(assets/images/engage.jpg);
+        background-position: center;
+        background-size: cover;
+        cursor: pointer;
+    }
+    /* ----fotter-login---------- */
+    
+    .footer-login {
+        margin-top: 0;
+        height: 400px;
+        background-color: #252423;
+    }
+    
+    .footer-login .bakery-end-logo {
+        height: 150px;
+        text-align: center;
+    }
+    
+    .footer-login .bakery-end-logo img {
+        padding-top: 50px;
+    }
+    
+    .footer-login p {
+        padding: 20px 20px;
+        font-size: 25px;
+        text-align: center;
+        color: white;
+        text-align: center;
+    }
+    
+    .footer-login .social-links {
+        text-align: center;
+        height: 100px;
+        padding: 0 0 0 450px;
+    }
+    
+    .footer-login .social-links li {
+        float: left;
+        background-color: #686868;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .footer-login .social-links img {
+        width: 50px;
+    }
